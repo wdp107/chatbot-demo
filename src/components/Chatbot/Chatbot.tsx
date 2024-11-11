@@ -19,7 +19,7 @@ interface IChatbotProps {
   headerText?: string;
   placeholderText?: string;
   saveMessages?: (ref: any) => any;
-  messageHistory?: IMessage[] | string;
+  messageHistory?: IMessage[];
   validator?: (input: string) => Boolean;
   disableScrollToBottom?: boolean;
 }
