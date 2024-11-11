@@ -57,9 +57,9 @@ disableScrollToBottom	boolean	Disables auto-scrolling to the bottom of the chat.
 | ----------------------------------------------- | :--: | :-------: |
 | messageParser          |  MessageParser       |   Handles incoming user messages.                      |
 | config                 |  IConfig             |   Configuration for chatbot appearance and behavior.   |
-| headerText             |  string              |    Text displayed in the chatbot header.               |
-| placeholderText        |  string              |    Placeholder for the input field.                    |
-| saveMessages           |  (messages) => void  |    Function to save messages (e.g., to local storage). |
+| headerText             |  string              |   Text displayed in the chatbot header.               |
+| placeholderText        |  string              |   Placeholder for the input field.                    |
+| saveMessages           |  (messages) => void  |   Function to save messages (e.g., to local storage). |
 | messageHistory         |  IMessage[]          |   Preloaded message history.                           |
-| validator              |   (input) => Boolean |   Validates user input before sending a message.       |
-| disableScrollToBottom  |  boolean              |    Disables auto-scrolling to the bottom of the chat. |
+| validator              |  (input) => Boolean |   Validates user input before sending a message.       |
+| disableScrollToBottom  |  boolean              |  Disables auto-scrolling to the bottom of the chat. |
