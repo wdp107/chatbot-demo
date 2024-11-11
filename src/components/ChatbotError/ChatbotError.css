@@ -1,0 +1,16 @@
+.chatbot-error {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.chatbot-error-container {
+  width: 260px;
+}
+
+.chatbot-error-header {
+  font-size: 1.3rem;
+  color: #1d1d1d;
+  margin-bottom: 30px;
+}
+
