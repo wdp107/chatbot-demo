@@ -10,7 +10,6 @@ This chatbot implementation uses a custom `Chatbot` component to interact with u
 
 ### Setup
 In the project directory, you can run:
-
 #### `npm start`
 
 Runs the app in the development mode.\
@@ -22,7 +21,7 @@ In the component you want to display the Chatbot, initalize the Chatbot in the f
 
 ```tsx
 const config = {
-  initialMessages: [createChatBotMessage(`Can I assist you with any questions or concerns you might have?`)]
+  initialMessages: [createChatBotMessage(`Hello`)]
 }
 
 class MessageParser {
